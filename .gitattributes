@@ -1,0 +1,88 @@
+# Set default behaviour, in case users don't have core.autocrlf set.
+* text=auto
+ 
+# Explicitly declare text files we want to always be normalized and converted
+# to native line endings on checkout.
+*.java text
+*.xml text
+*.xsl text
+*.csv text
+*.conf text
+*.properties text
+*.jsp text
+*.asp text
+*.aspx text
+*.css text
+*.scss text
+*.svg text
+*.js text
+*.json text
+*.htm text
+*.html text
+*.episode text
+*.xsd text
+*.dtd text
+*.gradle text
+*.txt text
+*.sh text
+*.bat text
+*.sql text
+*.php text
+*.sass text
+*.less text
+*.styl text
+*.ini text
+*.inc text
+*.rb text
+*.py text
+*.yaml text
+*.yml text
+*.coffee text
+
+# templates
+*.ejs text
+*.hbt text
+*.jade text
+*.haml text
+*.hbs text
+*.dot text
+*.tmpl text
+*.phtml text
+*.ftl text
+ 
+# Denote all files that are truly binary and should not be modified.
+*.png binary
+*.jpg binary
+*.gif binary
+*.zip binary
+*.rar binary
+*.7z binary
+*.jar binary
+*.doc binary
+*.docx binary
+*.dot binary
+*.xls binary
+*.otf binary
+*.eot binary
+*.ttf binary
+*.ttf binary
+*.woff binary
+ 
+# Custom for Visual Studio
+*.cs     diff=csharp
+*.sln    merge=union
+*.csproj merge=union
+*.vbproj merge=union
+*.fsproj merge=union
+*.dbproj merge=union
+ 
+*.doc	 diff=astextplain
+*.DOC	 diff=astextplain
+*.docx diff=astextplain
+*.DOCX diff=astextplain
+*.dot  diff=astextplain
+*.DOT  diff=astextplain
+*.pdf  diff=astextplain
+*.PDF	 diff=astextplain
+*.rtf	 diff=astextplain
+*.RTF	 diff=astextplain
